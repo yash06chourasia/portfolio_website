@@ -246,3 +246,34 @@ nav ul li a:hover::after{
   margin-top: 40px;
 }
 /* -------------------Achievement-------------------- */
+.layer.ach{
+     width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),#3d8ac5);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+ .work-list.ach{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+ }
+ .work.ach{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+ }
