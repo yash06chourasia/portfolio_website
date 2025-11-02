@@ -246,6 +246,10 @@ nav ul li a:hover::after{
   margin-top: 40px;
 }
 /* -------------------Achievement-------------------- */
+ #achievements{
+    padding: 50px 0;
+
+ }
 .layer.ach{
      width: 100%;
     height: 0;
@@ -277,3 +281,76 @@ nav ul li a:hover::after{
     overflow: hidden;
     height: 300px;
  }
+
+ /* ----------------certificates------------------ */
+  #certificates {
+  padding: 50px 0;
+  color: #fff;
+}
+
+#certificates .sub-title {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+#certificates table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px #ff004f;
+}
+
+#certificates th,
+#certificates td {
+  padding: 15px 20px;
+  text-align: left;
+}
+
+#certificates th {
+  background-color: #ff004f;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+#certificates tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#certificates tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+#certificates tr:hover {
+  background-color: #cd436f;
+  transition: 0.5s;
+  transform: scale(1.01);
+}
+
+#certificates a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 20px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.more-certificates{
+    display: none;
+}
+.more-certificates.show{
+    display: table-row-group;
+}
+/* -----------------------certificates-------------------- */
+
+
+
